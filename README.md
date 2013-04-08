@@ -8,12 +8,19 @@ A helper for generating your hubot package.json file with hubot-script dependenc
 This script creates a package.json file for your heroku-ready hubot build with dependencies
 included for your hubot-scripts (no more looking up the dependencies one by one).
 
-1) Include what scripts you want to use in the hubot-scripts.json file.
+1) Copy hubot-scripts-helper.coffee to your hubot directory.
 
-2) Save your original 'package.json' file as 'package.json.orig'
+2) Include what scripts you want to use in the hubot-scripts.json file.
 
-3) The script requires node_modules to be compiled in order to parse the scripts (you can delete them afterwards
+3) Save your original 'package.json' file as 'package.json.orig'
+
+4) The script requires node_modules to be compiled in order to parse the scripts (you can delete them afterwards
 or gitignore them if desired). Run 'npm install' in your compiled hubot project to install the node_modules.
+
+5) Run in terminal (from your hubot directory):
+```bash
+coffee hubot-scripts-helper.coffee
+```
 
 ##Notes
 
