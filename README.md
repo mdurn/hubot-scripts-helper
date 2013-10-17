@@ -35,3 +35,7 @@ coffee hubot-scripts-helper.coffee
 
 * Remove the need to compile node_modules locally.
 * Validate that a corresponding script for the file listed in hubot-scripts.json is found.
+
+
+![](http://api.mixpanel.com/track/?data=eyJldmVudCI6IlJlcG9zaXRvcnkgVmlld2VkIiwicHJvcGVydGllcyI6eyJ0b2tlbiI6Ijg2YWQ3Mjc5YmQzMGQ2MDMzMzQ0NjYwMDY3YzA1MTg1IiwiY2FtcGFpZ24iOiJodWJvdC1zY3JpcHRzLWhlbHBlciJ9fQ==&ip=1&img=1)
+![](http://www.pixelsite.info/track/t19137.gif)
